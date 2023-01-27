@@ -1,0 +1,9 @@
+name: for test main
+on: push
+jobs:
+   first-job:
+      runs-on: ubuntu-latest
+      steps:
+        - name: check date and time
+          run: |
+             date
