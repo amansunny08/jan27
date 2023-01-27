@@ -8,4 +8,4 @@ jobs:
        steps:
          - name: get time and date
            run: |
-              run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+              echo "::set-output name=date::$(date +'%Y-%m-%d')"
